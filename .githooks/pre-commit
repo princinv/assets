@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -u
+
+echo "Verifying project asset mirrors..."
+if [[ -x .scripts/sync-all-project-assets.sh ]]; then
+  .scripts/sync-all-project-assets.sh --check
+fi
