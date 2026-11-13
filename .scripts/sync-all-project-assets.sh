@@ -8,7 +8,7 @@ repos=(
   "/srv/docker/repos/health"
   "/srv/docker/repos/homepage-geoip-heatmap"
   "/srv/docker/repos/recipes-bridge"
-  "/srv/docker/repos/ansible-master"
+  "/srv/docker/repos/ansible-infra"
   "/home/princinv/.local/share/chezmoi"
 )
 
